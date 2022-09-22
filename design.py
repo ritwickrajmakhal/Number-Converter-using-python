@@ -9,7 +9,7 @@ root.resizable(False,False)
 padding = {'padx': 5, 'pady': 5}
 
 # Adjust size
-root.geometry( "800x250" )
+root.geometry( "772x250" )
   
 # Dropdown menu options
 options = [
