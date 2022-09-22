@@ -6,7 +6,10 @@ def bin_To_dec(N):
     dec = 0
     i = 0
     while N:
-        dec += (N%10) * (2**i)
+        if N%10 != 1 or N%10 != 0:
+            return "Error!"
+        else:
+            dec += (N%10) * (2**i)
         N //= 10
         i += 1
     return dec
